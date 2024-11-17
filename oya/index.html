@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"  data-aos="fade-up">
+  <title>Multibox</title>
+  <link rel="icon" href="images/favicon.png">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/LineIcons.css">
+  <link rel="stylesheet" href="css/fakeLoader.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+
+<body>
+
+  <!-- loader -->
+  <!--  -->
+  <!-- end loader -->
+
+  <!-- Video Loader -->
+  <div id="videoLoader">
+    <div class="videoHeader">
+      <h1>Welcome To</h1>
+      <img src="images/logo-removebg-preview.png" alt="MultiBox">
+      <p>MultiBox</p>
+      <button onclick="openHome()">Continue</button>
+    </div>
+    <div class="videoOverlay"></div>
+    <video src="video/video.mp4" data-aos="fade-down" autoplay playsinline style="pointer-events: none;"></video>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="header">
+      <div class="row">
+        <span class="header-div">
+          <i class="lni lni-map-marker"></i>
+          Head Office :
+    Plot No 9, Sector 31 Kasna Site IV Greater noida 202306
+        </span>
+        <span class="header-div">
+          <i class="lni lni-map-marker"></i>
+          Work: Plot No. H-4 , C-11 & G-66 Nani industrial area prayagraj
+        </span>
+      </div>
+      <div class="row">
+        <span class="header-div">
+          <i class="lni lni-phone"></i>
+          +91-11-26451645, +91 9971799044 , +91 8287268566
+        </span>
+        <span class="header-div">
+          <i class="lni lni-envelope"></i>
+          Hkm@multibox.in , Ajay@multibox.in
+        </span>
+        <span class="header-div">
+          <i class="lni lni-envelope"></i>
+          multiboxpvtltd@gmail.com
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="./images/logo-removebg-preview.png" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item  dropdown">
+            <a class="nav-link">About</a>
+            <ul class="dropdown-menu ">
+              <li class="nav-item"><a class="nav-link" href="./about/about_us.html"> ABOUT MULTIBOX</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="./about/management_team.html"> TEAM</a>
+              </li> -->
+              <li class="nav-item"><a class="nav-link" href="./about/vision&mission.html">VISION AND
+                  MISSION</a></li>
+              <li class="nav-item"><a class="nav-link" href="./about/why_multibox.html">WHY MULTIBOX</a></li>
+              <li class="nav-item"><a class="nav-link" href="./about/quality.html">QUALITY
+                  POLICY</a></li>
+              <li class="nav-item"><a class="nav-link" href="./about/hr_policy.html">HR POLICY</a>
+              </li>
+              <!-- <li class="nav-item"><a class="nav-link">OUR PRESENCE</a>
+                <ul class="dropdown-menu"> -->
+              <li class="nav-item"><a class="nav-link"
+                  href="./about/industry_affiliations.html">INDUSTRY AFFILIATIONS</a></li>
+              <li class="nav-item"><a class="nav-link" href="./about/our_clients.html">OUR
+                  CLIENTS</a></li>
+              <!-- </ul>
+              </li> -->
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link">Services</a>
+            <ul class="dropdown-menu ">
+              <li class="nav-item"><a class="nav-link"
+                  href="./services/product_portfolio.html">PRODUCT PORTFOLIO</a>
+              </li>
+              <li class="nav-item"><a class="nav-link"
+                  href="./services/customized_packaging.html">CUSTOMIZED PACKAGING</a></li>
+              <li class="nav-item"><a class="nav-link"
+                  href="./services/standard_packaging.html">STANDARD PACKAGING</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link">Plant & Equipment</a>
+            <ul class="dropdown-menu ">
+              <li class="nav-item"><a class="nav-link"
+                  href="./plant&equipment/plant&equipment.html">PLANT & EQUIPMENT</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="./plant&equipment/pds.html">PACKAGING
+                  DESIGN STUDIO</a></li>
+              <li class="nav-item"><a class="nav-link" href="./plant&equipment/tr&w.html">TOOL ROOM
+                  & WAREHOUSE</a></li>
+              <li class="nav-item"><a class="nav-link" href="./plant&equipment/p_m.html">PRINTING
+                  MACHINE</a></li>
+              <li class="nav-item"><a class="nav-link" href="./plant&equipment/sps.html">SOLAR POWER
+                  SYSTEM</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link">Contact us</a>
+            <ul class="dropdown-menu ">
+              <li class="nav-item"><a class="nav-link"
+                  href="./contact-us/general_contact.html">GENERAL CONTACT</a>
+              </li>
+              <li class="nav-item"><a class="nav-link"
+                  href="./contact-us/buisness_enquiry.html">BUISNESS ENQUIRY</a></li>
+              <li class="nav-item"><a class="nav-link" href="./contact-us/apply_for_job.html">APPLY
+                  FOR A JOB</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="./brochure/brochure.html">Brochure</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- home intro -->
+  <div class="home-intro" data-aos="fade-up" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm-12 col-md-6 col-12">
+          <div class="content"  data-aos="fade-up">
+            <h5 data-aos="fade-up"><span class="line"></span>WELCOME TO </h5>
+            <h2 data-aos="fade-up"> MULTIBOX</h2>
+            <ul data-aos="fade-up">
+              <!-- <li><a href="" class="button">Get Started</a></li> -->
+              <li><a href="" class="button2">Get Started</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col col-sm-12 col-md-6 col-12">
+          <div class="content-image"  data-aos="fade-up">
+            <img src="images/factory2.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end end intro -->
+
+  <!-- about -->
+  <div class="about section bg-grey" id="about">
+    <div class="container">
+      <div class="title-section">
+        <p data-aos="fade-up">ABOUT US</p>
+        <h3 data-aos="fade-up">Our goal is to</h3>
+        <h3 data-aos="fade-up">make your life easier</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="content"  data-aos="fade-up">
+            <i class="lni lni-bulb"></i>
+            <h5>Company Profile</h5>
+            <p class="mb-0">Multibox is a professionally managed corrugated sheets & box
+              manufacturing company.
+              Continuing the legacy of long standing business family ethics and vast management
+              experience, Multibox
+              Paper & Pack has set-up state-of-the-art plant with most contemporary machine and
+              equipments.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content"  data-aos="fade-up">
+            <i class="lni lni-sun"></i>
+            <h5>Our HR Policy</h5>
+            <p class="mb-0">Our HR Policy is driven by the philosophy of “People before Profit“. As
+              such industry best labour
+              and industrial relation practices with full facilities form an integral part of our
+              business
+              management.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content"  data-aos="fade-up">
+            <i class="lni lni-comments"></i>
+            <h5>STRENGTHS & ACHIEVEMENTS</h5>
+            <p class="mb-0">Having set-up a state-of-the-art most modern plant with futuristic
+              features such as automatic
+              manufacturing machinery and solar power, Multibox has set a benchmark in
+              business.<br />
+              We are ISO 9001 : 2015 certified company.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end about -->
+
+  <!-- portfolio -->
+  <!-- <div class="portfolio section" data-aos="fade-up" id="portfolio">
+    <div class="container">
+      <div class="title-section">
+        <p>PORTFOLIO</p>
+        <h3>See our <span>amazing</span></h3>
+        <h3><span>portfolio</span> collection</h3>
+      </div>
+      <div class="box-content"  data-aos="fade-up">
+        <div class="portfolio-filter-menu">
+          <ul>
+            <li data-filter="all" class="active">
+              <span>Show All</span>
+            </li>
+            <li data-filter="1">
+              <span>FMCG Sector</span>
+            </li>
+            <li data-filter="2">
+              <span>Industrial Sector</span>
+            </li>
+            <li data-filter="3">
+              <span>Pharmaceutical Sector
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="row no-gutters filtr-container">
+          <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3">
+            <div class="content-image"  data-aos="fade-up">
+              <a href="images/fmcg-2.jpg" class="portfolio-popup">
+                <img src="images/fmcg-2.jpg" alt="">
+                <div class="image-overlay"></div>
+                <div class="portfolio-caption">
+                  <div class="title">
+                    <h4>FMCG Sector</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1">
+            <div class="content-image"  data-aos="fade-up">
+              <a href="images/industrial.jpg" class="portfolio-popup">
+                <img src="images/industrial.jpg" alt="">
+                <div class="image-overlay"></div>
+                <div class="portfolio-caption">
+                  <div class="title">
+                    <h4>Industrial Sector</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="2, 1">
+            <div class="content-image"  data-aos="fade-up">
+              <a href="images/pharma12.jpg" class="portfolio-popup">
+                <img src="images/pharma12.jpg" alt="">
+                <div class="image-overlay"></div>
+                <div class="portfolio-caption">
+                  <div class="title">
+                    <h4>Pharmaceutical Sector
+                    </h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3">
+            <div class="content-image"  data-aos="fade-up">
+              <a href="images/ffss.webp" class="portfolio-popup">
+                <img src="images/ffss.webp" alt="">
+                <div class="image-overlay"></div>
+                <div class="portfolio-caption">
+                  <div class="title">
+                    <h4>Fashion, Footwear and Sports Sector
+                    </h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1, 2">
+            <div class="content-image"  data-aos="fade-up">
+              <a href="images/pps.jpg" class="portfolio-popup">
+                <img src="images/pps.jpg" alt="">
+                <div class="image-overlay"></div>
+                <div class="portfolio-caption">
+                  <div class="title">
+                    <h4>Printing and Publishing Sector
+                    </h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3, 1">
+            <div class="content-image"  data-aos="fade-up">
+              <a href="images/hw2.png" class="portfolio-popup">
+                <img src="images/pps.jpg" alt="">
+                <div class="image-overlay"></div>
+                <div class="portfolio-caption">
+                  <div class="title">
+                    <h4>Health & Wellness Sector
+                    </h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- end portfolio -->
+
+  <!-- services -->
+  <div class="services section bg-grey" id="services">
+    <div class="container">
+      <div class="title-section">
+        <p>SERVICES</p>
+        <h3>That we offer</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="content"  data-aos="fade-up">
+            <!-- <i class="lni lni-wordpress-filled"></i> -->
+            <img src="./images/ssb-1.jpg" class="services-img" alt="">
+            <h5>Small Standard Box</h5>
+            <p class="mb-0">Our small moving boxes hold up to 65 pounds and are 100% recyclable and
+              reusable for an eco-friendly
+              move.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content" data-aos-delay="300" data-aos="fade-up">
+            <!-- <i class="lni lni-vector"></i> -->
+            <img src="./images/msb.jpg" class="services-img" alt="">
+            <h5>Medium Standard Box</h5>
+            <p class="mb-0">Our Medium Moving Box is ideal for packing home décor, office supplies,
+              toys, and more.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content"  data-aos-delay="300" data-aos="fade-up">
+            <!-- <i class="lni lni-keyword-research"></i> -->
+            <img src="./images/csb.png" class="services-img" alt="">
+            <h5>Custom Size Box</h5>
+            <p class="mb-0">Custom boxes can really make your products stand out! ✓ Use our awesome
+              3D design tool to design custom-printed boxes.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content"  data-aos-delay="300" data-aos="fade-up">
+            <!-- <i class="lni lni-mobile"></i> -->
+            <img src="./images/hqcs.jpg" class="services-img" alt="">
+            <h5>High Quality Corrugated Sheets</h5>
+            <p class="mb-0">Purchase high quality roofing sheet from us for versatile industrial
+              purposes.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content"  data-aos-delay="300" data-aos="fade-up">
+            <!-- <i class="lni lni-list"></i> -->
+            <img src="./images/ccb.jpg" class="services-img" alt="">
+            <h5>Customized Corrugated Packaging Boxes</h5>
+            <p class="mb-0">Corrugated box or carton box is best suited for E-commerce packaging,
+              subscription boxes and retail
+              packaging.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content"  data-aos-delay="300" data-aos="fade-up">
+            <!-- <i class="lni lni-bulb"></i> -->
+            <img src="./images/master-carton.webp" class="services-img" alt="">
+            <h5>Master Cartons</h5>
+            <p class="mb-0">Master Cartons are large sized boxes generally used during storage &
+              transport. They are recyclable
+              & easy to handle.</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="completed">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>540</h4>
+            <span>Clients</span>
+          </div>
+          <div class="col-md-4">
+            <h4>831</h4>
+            <span>Project</span>
+          </div>
+          <div class="col-md-4">
+            <h4>65</h4>
+            <span>Branch</span>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <!-- end services -->
+
+  <!-- pricing -->
+
+  <!-- end pricing -->
+
+
+  <!-- testimonial -->
+
+  <!-- end testimonial -->
+
+  <!-- contact -->
+  <div id="contact" class="contact section">
+    <div class="container">
+      <div class="box-content"  data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="content"  data-aos="fade-up">
+              <h5>Address</h5>
+              <p>Head Office :
+Plot No 9, Sector 31 Kasna Site IV Greater noida 202306</p>
+              <h5>Phone</h5>
+              <p>+91-11-26451645, +91 9971799044 , +91 8287268566
+              </p>
+              <h5>Email</h5>
+              <p>Hkm@multibox.in , Ajay@multibox.in</p>
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="content-right"  data-aos="fade-up">
+              <form action="contact-form.php" class="contact-form" id="contact-form" method="post">
+                <div class="row">
+                  <div class="col">
+                    <div id="first-name-field">
+                      <input type="text" placeholder="Name" name="form-name">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div id="email-field">
+                      <input type="email" placeholder="Email Address" name="form-email">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div id="subject-field">
+                      <input type="text" placeholder="Subject" name="form-subject">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div id="message-field">
+                      <textarea cols="30" rows="5" id="form-message" name="form-message"
+                        placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <button class="button" type="submit" id="submit" name="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end contact -->
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="content"  data-aos="fade-up">
+            <div class="brand">
+              <img src="./images/logo-removebg-preview.png" alt="logo">
+
+            </div>
+            <p>Multibox Pvt ltd  is a professionally managed corrugated sheets & box manufacturing company. Continuing the legacy of long standing business family ethics and vast management experience, Multibox PVT LTD has set-up state-of-the-art plant with most contemporary machine and equipment's.
+</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content"  data-aos="fade-up">
+            <h5>About</h5>
+            <ul>
+              <li><a href=""><i class="fa fa-angle-double-right"></i> About us</a></li>
+              <li><a href=""><i class="fa fa-angle-double-right"></i> Contact</a></li>
+              <li><a href=""><i class="fa fa-angle-double-right"></i> Portfolio</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content"  data-aos="fade-up">
+            <h5>Support</h5>
+            <ul>
+              <li><a href=""><i class="fa fa-angle-double-right"></i> Hkm@multibox.in , Ajay@multibox.in</a></li>
+              <li><a href=""><i class="fa fa-angle-double-right"></i> +91 8287268566
+                </a></li>
+              <li><a href=""><i class="fa fa-angle-double-right"></i> Services</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-md-3 col-sm-6">
+          <div class="content"  data-aos="fade-up">
+            <h5>Follow us</h5>
+            <ul class="social">
+              <li><a href=""><i class="fab fa-facebook-f"></i> Facebook</a></li>
+              <li><a href=""><i class="fab fa-twitter"></i> Twitter
+                </a></li>
+              <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- footer bottom -->
+  <div class="footer-bottom">
+    <span>Copyright © All Right Reserved</span>
+  </div>
+  <!-- end footer bottom -->
+
+  <!-- script -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/fakeLoader.min.js"></script>
+  <script src="js/jquery.filterizr.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/magnific-popup.min.js"></script>
+  <script src="js/contact-form.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
